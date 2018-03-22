@@ -1,5 +1,8 @@
 'use strict';
+/*jshint node:true*/
+const EngineAddon = require('ember-engines/lib/engine-addon');
 
-module.exports = {
-  name: 'frontend-mandatendatabank-engine'
-};
+module.exports = EngineAddon.extend({
+  name: 'frontend-mandatendatabank-engine',
+  lazyLoading: false
+});
