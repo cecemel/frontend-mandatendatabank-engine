@@ -4,10 +4,14 @@ import loadInitializers from 'ember-load-initializers';
 import config from './config/environment';
 
 const { modulePrefix } = config;
-const Eng = Engine.extend({
+let Eng = Engine.extend({
   modulePrefix,
   Resolver
 });
+
+Eng.dependencies = {
+    services: ['store']
+};
 
 loadInitializers(Eng, modulePrefix);
 
