@@ -3,7 +3,7 @@
 const EngineAddon = require('ember-engines/lib/engine-addon');
 
 module.exports = EngineAddon.extend({
-  name: 'frontend-mandatendatabank-engine',
+  name: '@lblod/frontend-mandatendatabank-engine',
   lazyLoading: false,
   isDevelopingAddon(){ return true; }
 });

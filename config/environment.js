@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   const ENV = {
-    modulePrefix: 'frontend-mandatendatabank-engine',
+    modulePrefix: '@lblod/frontend-mandatendatabank-engine',
     environment: environment
   };
 

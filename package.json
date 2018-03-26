@@ -1,5 +1,5 @@
 {
-  "name": "frontend-mandatendatabank-engine",
+  "name": "@lblod/frontend-mandatendatabank-engine",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
@@ -30,7 +30,7 @@
     "ember-mu-transform-helpers": "^1.1.0"
   },
   "peerDependencies": {
-    "ember-engines": "^0.5.14"
+    "ember-engines": "^0.5.16"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
@@ -50,7 +50,7 @@
     "ember-composable-helpers": "^2.1.0",
     "ember-concurrency": "^0.8.16",
     "ember-disable-prototype-extensions": "^1.1.2",
-    "ember-engines": "^0.5.14",
+    "ember-engines": "^0.5.16",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^1.0.0",
     "ember-maybe-import-regenerator": "^0.1.6",

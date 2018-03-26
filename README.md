@@ -1,4 +1,4 @@
-frontend-mandatendatabank-engine
+@lblod/frontend-mandatendatabank-engine
 ==============================================================================
 
 [Short description of the addon.]
@@ -7,7 +7,7 @@ Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install frontend-mandatendatabank-engine
+ember install @lblod/frontend-mandatendatabank-engine
 ```
 
 
